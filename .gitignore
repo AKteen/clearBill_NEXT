@@ -1,28 +1,16 @@
-# ENV (both backend + frontend)
+# Python
+backend/clearbill/
+backend/__pycache__/
 backend/.env
-frontend/.env.*
-
-# Python (backend)
-__pycache__/
+**/__pycache__/
 *.pyc
-venv/
 
-# DB
-*.db
-*.sqlite3
-
-# Logs
-*.log
-
-# Next.js (frontend)
+# Node
 frontend/node_modules/
 frontend/.next/
-frontend/out/
+frontend/.env.local
+frontend/.env.production
 
-# IDE
-.vscode/
-.idea/
-
-# OS
+# General
 .DS_Store
-Thumbs.db
+*.log
