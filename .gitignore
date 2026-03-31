@@ -1,0 +1,28 @@
+# ENV (both backend + frontend)
+.env
+.env.*
+
+# Python (backend)
+__pycache__/
+*.pyc
+venv/
+
+# DB
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Next.js (frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
