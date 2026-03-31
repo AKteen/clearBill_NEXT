@@ -2,7 +2,8 @@
 
 > AI-powered invoice processing and compliance auditing. Upload an invoice, get instant extraction, validation, fraud detection, and a compliance score — with explainable AI reasoning.
 
-![ClearBill Demo](./assets/flow.png)
+<img width="866" height="1032" alt="Create a clean, modern flow diagram for an AI Invoice Auditing system called ClearBill  - visual selection (1)" src="https://github.com/user-attachments/assets/37115132-0656-4b8e-be87-dc8b48197ca1" />
+
 
 ---
 
@@ -215,18 +216,6 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 
 ---
 
-## Interview Notes
-
-**Why agentic over pipeline?**
-The agent makes cost-optimized decisions — anomaly detection (an expensive LLM call) only runs when signals warrant it, not on every invoice.
-
-**Why two models?**
-PDFs have extractable text — cheaper text model suffices. Images need vision capability. Routing saves tokens and improves accuracy.
-
-**Why save rejected invoices?**
-Audit trail is a compliance requirement in real expense management systems. You need to prove why something was rejected.
-
----
 
 ## Built with
 - [Groq](https://groq.com) — LLM inference
