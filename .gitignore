@@ -1,6 +1,6 @@
 # ENV (both backend + frontend)
-.env
-.env.*
+backend/.env
+frontend/.env.*
 
 # Python (backend)
 __pycache__/
