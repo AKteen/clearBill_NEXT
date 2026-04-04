@@ -46,12 +46,7 @@ export default function LoginPage() {
       }}>
         {/* Logo */}
         <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "1.5rem" }}>
-          <div style={{
-            width: "36px", height: "36px", borderRadius: "10px",
-            background: "var(--accent)", display: "flex", alignItems: "center", justifyContent: "center"
-          }}>
-            
-          </div>
+          
           <span style={{ fontWeight: 600, fontSize: "18px" }}>ClearBill</span>
         </div>
 
