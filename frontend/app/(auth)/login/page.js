@@ -3,6 +3,8 @@ import { useState } from "react";
 import { supabase } from "../../../lib/supabase";
 import { useRouter } from "next/navigation";
 import { FileText, Loader2 } from "lucide-react";
+import Image from "next/image";
+
 
 export default function LoginPage() {
   const router = useRouter();
@@ -46,8 +48,10 @@ export default function LoginPage() {
       }}>
         {/* Logo */}
         <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "1.5rem" }}>
+
+          <Image src="/logofont.png" alt="Logo" width={120} height={40} priority />
           
-          <span style={{ fontWeight: 600, fontSize: "18px" }}>ClearBill</span>
+          
         </div>
 
         <h1 style={{ fontSize: "20px", fontWeight: 600, marginBottom: "4px" }}>
