@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { requireAuth, signOut } from "../../lib/auth";
 import { uploadInvoice, getDocuments, getAuditStats } from "../../lib/api";
 
-import Image from 'nex/image'
+import Image from 'next/image'
 
 const C = {
   bg: "#ffffff",
