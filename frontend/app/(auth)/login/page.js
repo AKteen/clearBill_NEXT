@@ -50,7 +50,7 @@ export default function LoginPage() {
             width: "36px", height: "36px", borderRadius: "10px",
             background: "var(--accent)", display: "flex", alignItems: "center", justifyContent: "center"
           }}>
-            <FileText size={18} color="white" />
+            
           </div>
           <span style={{ fontWeight: 600, fontSize: "18px" }}>ClearBill</span>
         </div>
